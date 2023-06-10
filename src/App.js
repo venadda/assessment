@@ -1,5 +1,5 @@
 import './App.css';
-import Assessments from './components/Assessments/Assessments'
+import Assessments, { Assessment2 } from './components/Assessments/Assessments'
 import {AccountProvider} from './context/account.context'
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <AccountProvider>
         <Assessments />
+        <Assessment2 />
       </AccountProvider>
     </div>
   );
