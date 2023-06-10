@@ -30,7 +30,7 @@ const Assessments = () => {
         <Row >
           
           <Col lg="1" md="1" sm="1" xs ="1" className="p-2">
-            <img src={process.env.PUBLIC_URL +"/red.jpg"} />
+            <img src={process.env.PUBLIC_URL +"/red.jpg"} alt="Diabetes Risk" />
           </Col>
           
           <Col lg="11" sm="11" xs="11">
@@ -48,7 +48,7 @@ const Assessments = () => {
         <Row >
           
           <Col lg="1" md="1" sm="1" xs ="1" className="p-2">
-            <img src={process.env.PUBLIC_URL +"/red.jpg"} />
+            <img src={process.env.PUBLIC_URL +"/red.jpg"} alt="Depression" />
           </Col>
           
           <Col lg="11" sm="11" xs="11">
@@ -66,7 +66,7 @@ const Assessments = () => {
         <Row >
           
           <Col lg="1" md="1" sm="1" xs ="1" className="p-2">
-            <img src={process.env.PUBLIC_URL +"/light_blue.jpg"} />
+            <img src={process.env.PUBLIC_URL +"/light_blue.jpg"} alt="Food Insecurity"  />
           </Col>
           
           <Col lg="11" sm="11" xs="11">
@@ -84,7 +84,7 @@ const Assessments = () => {
         <Row >
           
           <Col lg="1" md="1" sm="1" xs ="1" className="p-2">
-            <img src={process.env.PUBLIC_URL +"/blue.jpg"} />
+            <img src={process.env.PUBLIC_URL +"/blue.jpg" } alt="Housing Helper"/>
           </Col>
           
           <Col lg="11" sm="11" xs="11">
@@ -104,7 +104,7 @@ const Assessments = () => {
         <Row >
           
           <Col lg="1" md="1" sm="1" xs ="1" className="p-2">
-            <img src={process.env.PUBLIC_URL +"/red.jpg"} />
+            <img src={process.env.PUBLIC_URL +"/red.jpg"} alt="CalFresh and Medi-cal" />
           </Col>
           
           <Col lg="11" sm="11" xs="11">
@@ -122,17 +122,18 @@ const Assessments = () => {
         <Row >
           
           <Col lg="1" md="1" sm="1" xs ="1" className="p-2">
-            <img src={process.env.PUBLIC_URL +"/red.jpg"} />
+            <img src={process.env.PUBLIC_URL +"/blue.jpg"} alt="HIV Risk"/>
           </Col>
           
           <Col lg="11" sm="11" xs="11">
             <Row>
             <Col lg="8" md="8" sm="8" xs="8" className="p-2">
-             <h5 className={classes.title}>CalFresh and Medi-Cal Eligibility</h5>
-              <p className={classes.description}></p>
+             <h5 className={classes.title}>HIV Risk</h5>
+              <p className={classes.description}>Northeast Valley Health Corporation
+</p>
             </Col>
             <Col lg="3" md="3" sm="3" xs="3" className="p-2">
-            <Button type="button" ref = {ref} onButtonClick={(event) => clickHandler(event, "CalFresh and Medi-Cal Eligibility")}  text="click here" className="white-space: nowrap" />
+            <Button type="button" ref = {ref} onButtonClick={(event) => clickHandler(event, "HIV Risk")}  text="click here" className="white-space: nowrap" />
            </Col>
            </Row>
         </Col>
