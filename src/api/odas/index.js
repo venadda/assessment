@@ -9,11 +9,9 @@ const ODAS = {};
 
 ODAS.get = async (params = {}) => {
   if(params.public) {
-    console.log("testing");
     return assessments;
   }
   else {
-    console.log("testing second");
     return user_assessments;
   }
 };
